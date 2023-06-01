@@ -1,0 +1,13 @@
+
+
+/*~~~ MAIN MENU ~~~*/
+.main-name-wrapper{
+    display: flex;
+    /*border: dashed;*/
+}
+.main-name{
+    display: block;
+    width: 77px;
+    margin-right: 7px;
+    /*border: dashed;*/
+}
