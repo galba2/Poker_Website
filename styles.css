@@ -1,13 +1,47 @@
 
 
 /*~~~ MAIN MENU ~~~*/
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 190, 137);
+}
+
+#main-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    /*border: dashed;*/
+    overflow: auto;
+}
+
+#image-saloon{
+    /*border:inset;*/
+    border-style: double;
+    border-width: 7px;
+    border-color: rgb(245, 193, 126);
+}
+
+h1,p {
+    color: #0f213b;
+}
+
 .main-name-wrapper{
     display: flex;
+    margin-bottom: 9px;
     /*border: dashed;*/
 }
+
 .main-name{
     display: block;
     width: 77px;
     margin-right: 7px;
+    color: #0f213b;
     /*border: dashed;*/
+}
+
+.main-name-textbox{
+    background-color: rgb(233, 160, 100);
+    color: #0f213b;
 }
