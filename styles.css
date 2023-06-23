@@ -46,3 +46,10 @@ h1,p {
     background-color: rgb(233, 160, 100);
     color: #0f213b;
 }
+
+#submit-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: dashed;
+}
