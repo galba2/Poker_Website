@@ -47,9 +47,20 @@ h1,p {
     color: #0f213b;
 }
 
-#submit-button{
+#submit-button-wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: dashed;
+    padding-top: 21px;
+    /*border: dashed;*/
+}
+
+#submit-button{
+    background-color: #b3a88f;
+    border: solid;
+    border-color: #a5b37b;
+    border-radius: 47%;
+    font-family: "Impact", Arial, sans-serif;
+    font-size: 27px;
+    cursor: pointer;
 }
