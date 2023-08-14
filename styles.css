@@ -58,9 +58,15 @@ h1,p {
 #submit-button{
     background-color: #b3a88f;
     border: solid;
-    border-color: #a5b37b;
+    border-color: #bcc4a9;
     border-radius: 47%;
     font-family: "Impact", Arial, sans-serif;
     font-size: 27px;
     cursor: pointer;
+}
+
+#submit-button:hover{
+    background-color: #c2b79b;
+    border-color: #adb49c;
+    font-size: 29px;
 }
