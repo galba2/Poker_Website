@@ -63,10 +63,17 @@ h1,p {
     font-family: "Impact", Arial, sans-serif;
     font-size: 27px;
     cursor: pointer;
+    
 }
 
 #submit-button:hover{
     background-color: #c2b79b;
     border-color: #adb49c;
     font-size: 29px;
+    overflow: hidden;
+}
+
+#end-wrapper{
+    height: 33px;
+    border: dashed;
 }
