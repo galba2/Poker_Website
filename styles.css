@@ -73,9 +73,3 @@ h1,p {
     border-color: #adb49c;
     font-size: 29px;
 }
-
-#end-wrapper{
-    height: 33px;
-    border: dashed;
-    overflow: auto;
-}
