@@ -6,3 +6,17 @@ html,body{
     padding: 0;
     background-color: rgb(231, 190, 137);
 }
+
+h1,p {
+    color: #0f213b;
+}
+
+#main-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin-bottom: 77px;
+    /*border: dashed;*/
+    overflow: auto;
+}
