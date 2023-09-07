@@ -20,3 +20,8 @@ h1,p {
     /*border: dashed;*/
     overflow: auto;
 }
+
+#play-area{
+    display: flex;
+    flex-direction: column;
+}
