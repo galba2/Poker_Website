@@ -25,3 +25,12 @@ h1,p {
     display: flex;
     flex-direction: column;
 }
+
+.play-area-layer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    height: auto;
+    border: dashed;
+}
