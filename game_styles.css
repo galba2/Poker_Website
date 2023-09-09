@@ -24,13 +24,21 @@ h1,p {
 #play-area{
     display: flex;
     flex-direction: column;
+    gap: 21px;
+    border: dashed;
 }
 
 .play-area-layer{
     display: flex;
     justify-content: center;
     align-content: center;
+    gap: 23px;
     width: auto;
     height: auto;
-    border: dashed;
+    /*border: dashed;*/
+}
+
+.player{
+    display: flex;
+    align-items: center;
 }
