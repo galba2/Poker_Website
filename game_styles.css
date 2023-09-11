@@ -42,3 +42,8 @@ h1,p {
     display: flex;
     align-items: center;
 }
+
+.player-images{
+    border-radius: 125px;
+    background-position: bottom;
+}
