@@ -40,10 +40,14 @@ h1,p {
 
 .player{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    border: dashed;
 }
 
 .player-images{
     border-radius: 125px;
     background-position: bottom;
+    border: dashed;
 }
