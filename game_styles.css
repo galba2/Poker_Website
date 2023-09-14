@@ -52,6 +52,17 @@ h1,h3,p {
     border: dashed;
 }
 
+.player-coins{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    border: dashed;
+}
+
 .coin{
     border-radius: 12.5px;
+    border: dashed;
 }
+
