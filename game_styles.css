@@ -66,3 +66,6 @@ h1,h3,p {
     border: dashed;
 }
 
+.player-number-total{
+    font-size: 21px;
+}
