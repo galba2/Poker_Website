@@ -51,21 +51,24 @@ h1,h3,p {
     background-position: bottom;
     border: dashed;
 }
+.player-name-label{
+    margin: 7px;
+}
 
 .player-coins-label{
     display: flex;
     justify-items: center;
     align-items: center;
-    width: auto;
-    height: auto;
-    border: dashed;
+    margin: 0;
+    /*border: dashed;*/
 }
 
 .coin{
     border-radius: 12.5px;
-    border: dashed;
+    /*border: dashed;*/
 }
 
 .player-number-total{
     font-size: 21px;
+    margin: 0;
 }
