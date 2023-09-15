@@ -52,7 +52,7 @@ h1,h3,p {
     border: dashed;
 }
 
-.player-coins{
+.player-coins-label{
     display: flex;
     justify-items: center;
     align-items: center;
