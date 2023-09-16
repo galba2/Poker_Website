@@ -46,6 +46,13 @@ h1,h3,p {
     border: dashed;
 }
 
+.cowboy-cards-hand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: dashed;
+}
+
 .player-images{
     border-radius: 125px;
     background-position: bottom;
