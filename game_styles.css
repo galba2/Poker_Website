@@ -38,6 +38,11 @@ h1,h3,p {
     /*border: dashed;*/
 }
 
+#layer-one{
+    display: flex;
+    flex-direction: column;
+}
+
 .player{
     display: flex;
     flex-direction: column;
