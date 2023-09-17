@@ -43,6 +43,11 @@ h1,h3,p {
     flex-direction: column;
 }
 
+#layer-three{
+    display: flex;
+    flex-direction: column;
+}
+
 .player{
     display: flex;
     flex-direction: column;
@@ -52,6 +57,13 @@ h1,h3,p {
 }
 
 .cowboy-cards-hand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: dashed;
+}
+
+#user-cards{
     display: flex;
     align-items: center;
     justify-content: center;
