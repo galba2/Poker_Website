@@ -63,6 +63,14 @@ h1,h3,p {
     border: dashed;
 }
 
+.cards-back-one{
+    transform: rotate(-25deg);
+}
+
+.cards-back-two{
+    transform: rotate(-15deg);
+}
+
 #user-cards{
     display: flex;
     align-items: center;
