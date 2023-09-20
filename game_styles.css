@@ -68,7 +68,7 @@ h1,h3,p {
 }
 
 .cards-back-two{
-    transform: rotate(-15deg);
+    transform: translate(13px) rotate(-15deg);
 }
 
 .cards-back-three{
