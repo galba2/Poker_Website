@@ -71,6 +71,18 @@ h1,h3,p {
     transform: rotate(-15deg);
 }
 
+.cards-back-three{
+    transform: rotate(1deg);
+}
+
+.cards-back-four{
+    transform: rotate(17deg);
+}
+
+.cards-back-five{
+    transform: rotate(25deg);
+}
+
 #user-cards{
     display: flex;
     align-items: center;
