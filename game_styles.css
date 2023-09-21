@@ -64,11 +64,11 @@ h1,h3,p {
 }
 
 .cards-back-one{
-    transform: rotate(-25deg);
+    transform: translate(41px, 10px) rotate(-25deg);
 }
 
 .cards-back-two{
-    transform: translate(13px) rotate(-15deg);
+    transform: translate(19px, 3px) rotate(-15deg);
 }
 
 .cards-back-three{
@@ -76,11 +76,11 @@ h1,h3,p {
 }
 
 .cards-back-four{
-    transform: rotate(17deg);
+    transform: translate(-19px, 4px) rotate(17deg);
 }
 
 .cards-back-five{
-    transform: rotate(25deg);
+    transform: translate(-41px, 11px)rotate(25deg);
 }
 
 #user-cards{
