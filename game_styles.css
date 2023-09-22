@@ -63,6 +63,10 @@ h1,h3,p {
     border: dashed;
 }
 
+#player-cards-two{
+    transform: rotate(90deg);
+}
+
 .cards-back-one{
     transform: translate(41px, 10px) rotate(-25deg);
 }
