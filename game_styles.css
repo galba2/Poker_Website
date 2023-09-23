@@ -67,6 +67,10 @@ h1,h3,p {
     transform: rotate(90deg);
 }
 
+#player-cards-three{
+    transform: rotate(-90deg);
+}
+
 .cards-back-one{
     transform: translate(41px, 10px) rotate(-25deg);
 }
