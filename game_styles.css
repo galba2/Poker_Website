@@ -58,13 +58,13 @@ h1,h3,p {
 
 .cowboy-cards-hand{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     border: dashed;
 }
 
 #player-cards-two{
-    transform: rotate(90deg);
+    transform: rotate(90deg) translate(0px, 13px);
 }
 
 #player-cards-three{
@@ -72,23 +72,23 @@ h1,h3,p {
 }
 
 .cards-back-one{
-    transform: translate(41px, 10px) rotate(-25deg);
+    transform: translate(41px, 44px) rotate(-25deg);
 }
 
 .cards-back-two{
-    transform: translate(19px, 3px) rotate(-15deg);
+    transform: translate(19px, 37px) rotate(-15deg);
 }
 
 .cards-back-three{
-    transform: rotate(1deg);
+    transform: translate(0, 34px)  rotate(1deg);
 }
 
 .cards-back-four{
-    transform: translate(-19px, 4px) rotate(17deg);
+    transform: translate(-19px, 38px) rotate(17deg);
 }
 
 .cards-back-five{
-    transform: translate(-41px, 11px) rotate(25deg);
+    transform: translate(-41px, 45px) rotate(25deg);
 }
 
 #user-cards{
