@@ -88,7 +88,7 @@ h1,h3,p {
 }
 
 .cards-back-five{
-    transform: translate(-41px, 11px)rotate(25deg);
+    transform: translate(-41px, 11px) rotate(25deg);
 }
 
 #user-cards{
@@ -96,6 +96,26 @@ h1,h3,p {
     align-items: center;
     justify-content: center;
     border: dashed;
+}
+
+#user-cards-first{
+    transform: translate(42px, 11px) rotate(-25deg);
+}
+
+#user-cards-second{
+    transform: translate(18px, 3px) rotate(-15deg);
+}
+
+#user-cards-third{
+    transform: rotate(3deg);
+}
+
+#user-cards-fourth{
+    transform: translate(-17px, 4px) rotate(17deg);
+}
+
+#user-cards-fifth{
+    transform: translate(-43px, 11px) rotate(25deg);
 }
 
 .player-images{
