@@ -56,6 +56,9 @@ h1,h3,p {
     border: dashed;
 }
 
+
+/*~~~PLAYER CARDS~~~*/
+
 .cowboy-cards-hand{
     display: flex;
     align-items: start;
@@ -64,32 +67,34 @@ h1,h3,p {
 }
 
 #player-cards-two{
-    transform: rotate(90deg) translate(0px, 13px);
+    transform: rotate(90deg) translate(0px, 35px);
 }
 
 #player-cards-three{
-    transform: rotate(-90deg);
+    transform: rotate(-90deg) translate(0px, 35px);
 }
 
 .cards-back-one{
-    transform: translate(41px, 44px) rotate(-25deg);
+    transform: translate(41px, 10px) rotate(-25deg);
 }
 
 .cards-back-two{
-    transform: translate(19px, 37px) rotate(-15deg);
+    transform: translate(19px, 3px) rotate(-15deg);
 }
 
 .cards-back-three{
-    transform: translate(0, 34px)  rotate(1deg);
+    transform: rotate(1deg);
 }
 
 .cards-back-four{
-    transform: translate(-19px, 38px) rotate(17deg);
+    transform: translate(-19px, 4px) rotate(17deg);
 }
 
 .cards-back-five{
-    transform: translate(-41px, 45px) rotate(25deg);
+    transform: translate(-41px, 11px) rotate(25deg);
 }
+
+/*~~~USER CARDS~~~*/
 
 #user-cards{
     display: flex;
@@ -117,6 +122,10 @@ h1,h3,p {
 #user-cards-fifth{
     transform: translate(-43px, 11px) rotate(25deg);
 }
+
+/*~~~PLAYER PROFILES~~~*/
+
+
 
 .player-images{
     border-radius: 125px;
