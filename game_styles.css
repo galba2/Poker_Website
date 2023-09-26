@@ -67,11 +67,12 @@ h1,h3,p {
 }
 
 #player-cards-two{
-    transform: rotate(90deg) translate(0px, 35px);
+    display:flex;
+    flex-direction: column;
 }
 
 #player-cards-three{
-    transform: rotate(-90deg) translate(0px, 35px);
+    
 }
 
 .cards-back-one{
@@ -124,8 +125,6 @@ h1,h3,p {
 }
 
 /*~~~PLAYER PROFILES~~~*/
-
-
 
 .player-images{
     border-radius: 125px;
