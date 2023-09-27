@@ -72,7 +72,8 @@ h1,h3,p {
 }
 
 #player-cards-three{
-    
+    display:flex;
+    flex-direction: column;
 }
 
 .cards-back-one{
