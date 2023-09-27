@@ -69,11 +69,17 @@ h1,h3,p {
 #player-cards-two{
     display:flex;
     flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border: dashed;
 }
 
 #player-cards-three{
     display:flex;
     flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border: dashed;
 }
 
 .cards-back-one{
