@@ -32,7 +32,7 @@ h1,h3,p {
     display: flex;
     justify-content: center;
     align-content: center;
-    gap: 23px;
+    gap: 11px;
     width: auto;
     height: auto;
     /*border: dashed;*/
