@@ -91,6 +91,22 @@ h1,h3,p {
     border: dashed;
 }
 
+#button-wrapper-first{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-right: 33px;
+    border: dashed;
+}
+
+#button-wrapper-second{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 33px;
+    border: dashed;
+}
+
 .user-individual-card{
     display: flex;
     flex-direction: column;
