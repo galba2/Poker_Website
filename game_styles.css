@@ -59,7 +59,7 @@ h1,h3,p {
 
 /*~~~PLAYER CARDS~~~*/
 
-.cowboy-cards-hand{
+#player-cards-one{
     display: flex;
     align-items: start;
     justify-content: center;
