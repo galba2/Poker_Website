@@ -107,31 +107,6 @@ h1,h3,p {
     /*border: dashed;*/
 }
 
-/*USER CARD FIRST*/
-#user-cards-first{
-    transform: translate(47px, 25px) rotate(-25deg);
-}
-
-/*USER CARD SECOND*/
-#user-cards-second{
-    transform: translate(21px, 8px) rotate(-15deg);
-}
-
-/*USER CARD THIRD*/
-#user-cards-third{
-    transform: rotate(3deg);
-}
-
-/*USER CARD FOURTH*/
-#user-cards-fourth{
-    transform: translate(-19px, 9px) rotate(17deg);
-}
-
-/*USER CARD FIFTH*/
-#user-cards-fifth{
-    transform: translate(-47px, 25px) rotate(25deg);
-}
-
 /*~~~PLAYER PROFILES~~~*/
 
 .player-images{
