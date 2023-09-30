@@ -82,26 +82,6 @@ h1,h3,p {
     border: dashed;
 }
 
-.cards-back-one{
-    transform: translate(41px, 10px) rotate(-25deg);
-}
-
-.cards-back-two{
-    transform: translate(19px, 3px) rotate(-15deg);
-}
-
-.cards-back-three{
-    transform: rotate(1deg);
-}
-
-.cards-back-four{
-    transform: translate(-19px, 4px) rotate(17deg);
-}
-
-.cards-back-five{
-    transform: translate(-41px, 11px) rotate(25deg);
-}
-
 /*~~~USER CARDS~~~*/
 
 #user-cards{
