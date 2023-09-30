@@ -114,6 +114,7 @@ h1,h3,p {
 .user-individual-card{
     display: flex;
     flex-direction: column;
+    background-color: #fff;
 }
 
 .user-individual-rank{
