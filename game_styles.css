@@ -7,7 +7,7 @@ html,body{
     background-color: rgb(231, 190, 137);
 }
 
-h1,h3,p {
+h1,h3,p,b {
     color: #0f213b;
 }
 
@@ -93,10 +93,10 @@ h1,h3,p {
 
 .user-button{
     background-color: antiquewhite;
-    color: #0f213b;
     padding: 15px 32px;
     cursor: pointer;
     font-size: 27px;
+    border-radius: 7px;
 }
 
 #button-wrapper-first{
