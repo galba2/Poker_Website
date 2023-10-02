@@ -91,6 +91,14 @@ h1,h3,p {
     border: dashed;
 }
 
+.user-button{
+    background-color: antiquewhite;
+    color: #0f213b;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 27px;
+}
+
 #button-wrapper-first{
     display: flex;
     align-items: center;
