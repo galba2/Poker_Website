@@ -100,7 +100,7 @@ h1,h3,p,b {
     border-radius: 3px;
 }
 
-#button-wrapper-first{
+#button-wrapper-first, #button-wrapper-second{
     display: flex;
     align-items: center;
     justify-items: center;
@@ -109,15 +109,11 @@ h1,h3,p,b {
 }
 
 #button-wrapper-first:hover{
-    box-shadow: 0 -5px 5px rgb(102, 96, 89);
+    box-shadow: 0 0 13px 5px rgb(88, 80, 71);
 }
 
-#button-wrapper-second{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    margin-left: 33px;
-    border: dashed;
+#button-wrapper-second:hover{
+    box-shadow: 0 0 13px 5px rgb(88, 80, 71);
 }
 
 .user-individual-card{
