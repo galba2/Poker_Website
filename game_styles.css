@@ -125,6 +125,10 @@ h1,h3,p,b {
     cursor: pointer;
 }
 
+.user-individual-card:hover{
+    box-shadow: 0 0 13px 5px rgb(88, 80, 71);
+}
+
 .user-individual-rank{
     display: flex;
     justify-content: left;
