@@ -43,6 +43,16 @@ h1,h3,p,b {
     flex-direction: column;
 }
 
+#table{
+    position: relative;
+}
+
+#cards-deck{
+    position: absolute;
+    top: 30%;
+    left: 41%;
+}
+
 #layer-three{
     display: flex;
     flex-direction: column;
