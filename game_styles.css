@@ -50,7 +50,8 @@ h1,h3,p,b {
 #cards-deck{
     position: absolute;
     top: 30%;
-    left: 41%;
+    left: 63%;
+    transform: rotate(13deg);
 }
 
 #layer-three{
@@ -147,10 +148,6 @@ h1,h3,p,b {
     align-items: end;
     padding-left: 5px;
     /*border: dashed;*/
-}
-
-.user-individual-rank:hover{
-    box-shadow: 0 0 13px 5px rgb(88, 80, 71) inset;
 }
 
 /*~~~PLAYER PROFILES~~~*/
