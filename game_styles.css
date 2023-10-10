@@ -47,11 +47,25 @@ h1,h3,p,b {
     position: relative;
 }
 
-#cards-deck{
+#cards-deck-one{
     position: absolute;
     top: 30%;
     left: 63%;
     transform: rotate(13deg);
+}
+
+#cards-deck-two{
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    transform: rotate(10deg);
+}
+
+#cards-deck-three{
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    transform: rotate(15deg);
 }
 
 #layer-three{
