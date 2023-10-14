@@ -135,6 +135,10 @@ h1,h3,p,b {
     transform: scale(.95, .7);
 }
 
+@keyframes cardFlick{
+    
+}
+
 #button-wrapper-first, #button-wrapper-second{
     display: flex;
     align-items: center;
