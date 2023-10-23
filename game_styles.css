@@ -43,14 +43,13 @@ h1,h3,p,b {
     flex-direction: column;
 }
 
-#player-cards-two-first{
-    position: absolute;
-}
+
 
 #table{
     position: relative;
 }
 
+/*~DECK OF CARDS~*/
 #cards-deck-one{
     position: absolute;
     top: 30%;
