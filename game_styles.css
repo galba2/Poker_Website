@@ -96,11 +96,16 @@ h1,h3,p,b {
 
 #player-cards-two{
     display:flex;
+    width: 65px;
     position: relative;
     flex-direction: column;
     align-items: start;
     justify-content: center;
     border: dashed;
+}
+
+.player-cards-two-hand{
+    position: absolute;
 }
 
 #player-cards-three{
