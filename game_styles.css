@@ -145,8 +145,8 @@ h1,h3,p,b {
 }
 
 @keyframes cardFlick{
-    from {top: 0px;}
-    to {top: 33px;}
+    from {top: 152px; left:0px}
+    to {top: 152px; left: 115px;}
 }
 
 #button-wrapper-first, #button-wrapper-second{
