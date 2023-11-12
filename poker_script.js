@@ -1,3 +1,3 @@
 function transform() {
-    document.getElementById("player-cards-two-first").style.animation = "cardFlick 1.5s linear 0s 2";
+    document.getElementById("player-cards-two-first").style.animation = "cardFlick .7s linear 0s normal both";
 }
