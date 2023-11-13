@@ -107,6 +107,7 @@ h1,h3,p,b {
 .player-cards-two-hand{
     position: absolute;
     z-index: 1;
+    border: dashed;
 }
 
 #player-cards-three{
@@ -147,7 +148,7 @@ h1,h3,p,b {
 
 @keyframes cardFlick{
     from {top: 152px; left:0px}
-    to {top: 152px; left: 115px;}
+    to {top: 185px; left: 115px; rotate: 50deg}
 }
 
 #button-wrapper-first, #button-wrapper-second{
