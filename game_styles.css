@@ -146,7 +146,14 @@ h1,h3,p,b {
     transform: scale(.95, .7);
 }
 
-@keyframes cardFlick{
+/*~~~Player Two cardFlick~~~*/
+
+@keyframes cardFlickPlayerTwoFirst{
+    from {top: 152px; left:0px}
+    to {top: 185px; left: 115px; rotate: 50deg}
+}
+
+@keyframes cardFlickPlayerTwoSecond{
     from {top: 152px; left:0px}
     to {top: 185px; left: 115px; rotate: 50deg}
 }
