@@ -154,8 +154,10 @@ h1,h3,p,b {
 }
 
 @keyframes cardFlickPlayerTwoSecond{
-    from {top: 152px; left:0px}
-    to {top: 185px; left: 115px; rotate: 50deg}
+    0%   {rotate: 51deg}
+    100% {top: 185px; left: 115px}
+    /*from {top: 152px; left:0px}
+    to {top: 185px; left: 115px; rotate: 50deg}*/
 }
 
 #button-wrapper-first, #button-wrapper-second{
