@@ -148,16 +148,29 @@ h1,h3,p,b {
 
 /*~~~Player Two cardFlick~~~*/
 
-@keyframes cardFlickPlayerTwoFirst{
+@keyframes cardFlickPlayerTwoFirst{ 
     from {top: 152px; left:0px}
-    to {top: 185px; left: 115px; rotate: 50deg}
+    to   {top: 185px; left: 115px; rotate: 50deg}
 }
 
 @keyframes cardFlickPlayerTwoSecond{
-    0%   {rotate: 51deg}
-    100% {top: 185px; left: 115px}
-    /*from {top: 152px; left:0px}
-    to {top: 185px; left: 115px; rotate: 50deg}*/
+    from {top: 157px; left:0px}
+    to   {top: 180px; left: 115px; rotate: 27deg}
+}
+
+@keyframes cardFlickPlayerTwoThird{
+    from {top: 157px; left:0px}
+    to   {top: 163px; left: 117px; rotate: -15deg}
+}
+
+@keyframes cardFlickPlayerTwoFourth{
+    from {top: 157px; left:0px}
+    to   {top: 170px; left:113px; rotate: -40deg}
+}
+
+@keyframes cardFlickPlayerTwoFifth{
+    from {top: 157px; left:0px}
+    to   {top: 165px; left: 147px; rotate: 31deg}
 }
 
 #button-wrapper-first, #button-wrapper-second{
