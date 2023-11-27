@@ -173,6 +173,33 @@ h1,h3,p,b {
     to   {top: 165px; left: 147px; rotate: 31deg}
 }
 
+/*~~~Player Three cardFlick~~~*/
+
+@keyframes cardFlickPlayerThreeFirst{ 
+    from {top: 152px; left:0px}
+    to   {top: 185px; left: 115px; rotate: 50deg}
+}
+
+@keyframes cardFlickPlayerThreeSecond{
+    from {top: 157px; left:0px}
+    to   {top: 180px; left: 115px; rotate: 27deg}
+}
+
+@keyframes cardFlickPlayerThreeThird{
+    from {top: 157px; left:0px}
+    to   {top: 163px; left: 117px; rotate: -15deg}
+}
+
+@keyframes cardFlickPlayerThreeFourth{
+    from {top: 157px; left:0px}
+    to   {top: 170px; left:113px; rotate: -40deg}
+}
+
+@keyframes cardFlickPlayerThreeFifth{
+    from {top: 157px; left:0px}
+    to   {top: 165px; left: 147px; rotate: 31deg}
+}
+
 #button-wrapper-first, #button-wrapper-second{
     display: flex;
     align-items: center;
