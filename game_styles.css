@@ -120,6 +120,12 @@ h1,h3,p,b {
     border: dashed;
 }
 
+.player-cards-three-hand{
+    position: absolute;
+    z-index: 1;
+    border: dashed;
+}
+
 /*~~~USER CARDS~~~*/
 
 #user-cards{
