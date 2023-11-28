@@ -177,7 +177,7 @@ h1,h3,p,b {
 
 @keyframes cardFlickPlayerThreeFirst{ 
     from {top: 152px; left:0px}
-    to   {top: 185px; left: 115px; rotate: 50deg}
+    to   {top: 0px; left: 100px; rotate: 11deg}
 }
 
 @keyframes cardFlickPlayerThreeSecond{
