@@ -112,6 +112,8 @@ h1,h3,p,b {
 
 #player-cards-three{
     display:flex;
+    width: 65px;
+    position: relative;
     flex-direction: column;
     align-items: start;
     justify-content: center;
