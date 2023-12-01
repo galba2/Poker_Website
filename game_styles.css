@@ -185,27 +185,27 @@ h1,h3,p,b {
 
 @keyframes cardFlickPlayerThreeFirst{ 
     from {top: 152px; left:0px}
-    to   {top: 0px; left: 100px; rotate: 11deg}
+    to   {top: 143px; left: -111px; rotate: 11deg}
 }
 
 @keyframes cardFlickPlayerThreeSecond{
     from {top: 157px; left:0px}
-    to   {top: 180px; left: 115px; rotate: 27deg}
+    to   {top: 180px; left: -115px; rotate: 27deg}
 }
 
 @keyframes cardFlickPlayerThreeThird{
     from {top: 157px; left:0px}
-    to   {top: 163px; left: 117px; rotate: -15deg}
+    to   {top: 163px; left: -117px; rotate: -15deg}
 }
 
 @keyframes cardFlickPlayerThreeFourth{
     from {top: 157px; left:0px}
-    to   {top: 170px; left:113px; rotate: -40deg}
+    to   {top: 184px; left:-113px; rotate: -40deg}
 }
 
 @keyframes cardFlickPlayerThreeFifth{
     from {top: 157px; left:0px}
-    to   {top: 165px; left: 147px; rotate: 31deg}
+    to   {top: 212px; left: -147px; rotate: 31deg}
 }
 
 #button-wrapper-first, #button-wrapper-second{
