@@ -154,6 +154,33 @@ h1,h3,p,b {
     transform: scale(.95, .7);
 }
 
+/*~~~Player One cardFlick~~~*/
+
+@keyframes cardFlickPlayerOneFirst{ 
+    from {top: 152px; left:0px}
+    to   {top: 185px; left: 115px; rotate: 50deg}
+}
+
+@keyframes cardFlickPlayerOneSecond{
+    from {top: 157px; left:0px}
+    to   {top: 180px; left: 115px; rotate: 27deg}
+}
+
+@keyframes cardFlickPlayerOneThird{
+    from {top: 157px; left:0px}
+    to   {top: 163px; left: 117px; rotate: -15deg}
+}
+
+@keyframes cardFlickPlayerOneFourth{
+    from {top: 157px; left:0px}
+    to   {top: 170px; left:113px; rotate: -40deg}
+}
+
+@keyframes cardFlickPlayerOneFifth{
+    from {top: 157px; left:0px}
+    to   {top: 165px; left: 147px; rotate: 31deg}
+}
+
 /*~~~Player Two cardFlick~~~*/
 
 @keyframes cardFlickPlayerTwoFirst{ 
