@@ -89,8 +89,16 @@ h1,h3,p,b {
 
 #player-cards-one{
     display: flex;
+    height: 65px;
+    position: relative;
     align-items: start;
     justify-content: center;
+    border: dashed;
+}
+
+.player-cards-one-hand{
+    position: absolute;
+    z-index: 1;
     border: dashed;
 }
 
@@ -154,7 +162,7 @@ h1,h3,p,b {
     transform: scale(.95, .7);
 }
 
-/*~~~Player One cardFlick~~~*/
+/*~~~Player One cardFlick Animation~~~*/
 
 @keyframes cardFlickPlayerOneFirst{ 
     from {top: 152px; left:0px}
@@ -181,7 +189,7 @@ h1,h3,p,b {
     to   {top: 165px; left: 147px; rotate: 31deg}
 }
 
-/*~~~Player Two cardFlick~~~*/
+/*~~~Player Two cardFlick Animation~~~*/
 
 @keyframes cardFlickPlayerTwoFirst{ 
     from {top: 152px; left:0px}
@@ -208,7 +216,7 @@ h1,h3,p,b {
     to   {top: 165px; left: 147px; rotate: 31deg}
 }
 
-/*~~~Player Three cardFlick~~~*/
+/*~~~Player Three cardFlick Animation~~~*/
 
 @keyframes cardFlickPlayerThreeFirst{ 
     from {top: 152px; left:0px}
