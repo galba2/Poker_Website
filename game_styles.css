@@ -165,28 +165,28 @@ h1,h3,p,b {
 /*~~~Player One cardFlick Animation~~~*/
 
 @keyframes cardFlickPlayerOneFirst{ 
-    from {top: 0px; left:333px}
-    to   {top: 185px; left: 0px; rotate: 50deg}
+    from {top: 0px; left:407px}
+    to   {top: 100px; left: 370px; rotate: 50deg}
 }
 
 @keyframes cardFlickPlayerOneSecond{
-    from {top: 157px; left:0px}
-    to   {top: 180px; left: 115px; rotate: 27deg}
+    from {top: 0px; left:405px}
+    to   {top: 101px; left: 370px; rotate: 27deg}
 }
 
 @keyframes cardFlickPlayerOneThird{
-    from {top: 157px; left:0px}
-    to   {top: 163px; left: 117px; rotate: -15deg}
+    from {top: 0px; left:401px}
+    to   {top: 119px; left: 369px; rotate: -15deg}
 }
 
 @keyframes cardFlickPlayerOneFourth{
-    from {top: 157px; left:0px}
-    to   {top: 170px; left:113px; rotate: -40deg}
+    from {top: 0px; left:397px}
+    to   {top: 117px; left:373px; rotate: -70deg}
 }
 
 @keyframes cardFlickPlayerOneFifth{
-    from {top: 157px; left:0px}
-    to   {top: 165px; left: 147px; rotate: 31deg}
+    from {top: 0px; left:399px}
+    to   {top: 147px; left: 387px; rotate: 17deg}
 }
 
 /*~~~Player Two cardFlick Animation~~~*/
