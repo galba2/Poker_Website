@@ -165,8 +165,8 @@ h1,h3,p,b {
 /*~~~Player One cardFlick Animation~~~*/
 
 @keyframes cardFlickPlayerOneFirst{ 
-    from {top: 152px; left:0px}
-    to   {top: 185px; left: 115px; rotate: 50deg}
+    from {top: 0px; left:333px}
+    to   {top: 185px; left: 0px; rotate: 50deg}
 }
 
 @keyframes cardFlickPlayerOneSecond{
