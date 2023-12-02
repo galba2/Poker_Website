@@ -1,4 +1,12 @@
 function buttonPressed() {
+
+    //PLAYER ONE CARDFLICK
+    document.getElementById("player-cards-one-first").style.animation = "cardFlickPlayerOneFirst .7s linear 0s normal both";
+    document.getElementById("player-cards-one-second").style.animation = "cardFlickPlayerOneSecond .7s ease-out 0s normal both";
+    document.getElementById("player-cards-one-third").style.animation = "cardFlickPlayerOneThird .7s linear 0s normal both";
+    document.getElementById("player-cards-one-fourth").style.animation = "cardFlickPlayerOneFourth .7s ease-out 0s normal both";
+    document.getElementById("player-cards-one-fifth").style.animation = "cardFlickPlayerOneFifth .7s ease-out 0s normal both";
+
     //PLAYER TWO CARDFLICK
     document.getElementById("player-cards-two-first").style.animation = "cardFlickPlayerTwoFirst .7s linear 0s normal both";
     document.getElementById("player-cards-two-second").style.animation = "cardFlickPlayerTwoSecond .7s ease-out 0s normal both";
