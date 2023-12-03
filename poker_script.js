@@ -1,3 +1,24 @@
+
+//Create card deck 
+let deck = [];
+
+for(let i = 1; i < 5; i++){
+
+    for(let j = 2; j < 15; j++){
+
+        deck.push( (i * 100) + j);//mutiplying by 100 so i can be the first in a 3 digit number
+    }
+}
+
+//Deck Suit Key
+// 1 = diamonds
+// 2 = clubs
+// 3 = hearts
+// 4 = spades
+
+console.log(deck);
+
+
 function buttonPressed() {
 
     //PLAYER ONE CARDFLICK
