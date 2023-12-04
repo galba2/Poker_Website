@@ -18,6 +18,11 @@ for(let i = 1; i < 5; i++){
 
 console.log(deck);
 
+const User = {
+    name: "User",
+    money: 10,
+    cards: []
+}
 
 function buttonPressed() {
 
