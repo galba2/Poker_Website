@@ -18,10 +18,33 @@ for(let i = 1; i < 5; i++){
 
 console.log(deck);
 
-const User = {
-    name: "User",
-    money: 10,
-    cards: []
+//Create Seats
+const user = {
+
+    name : "User",
+    money : 10,
+    hand : []    
+}
+
+const playerOne = {
+
+    name : "Player One",
+    money : 10,
+    hand : []    
+}
+
+const playerTwo = {
+
+    name : "Player Two",
+    money : 10,
+    hand : []    
+}
+
+const playerThree = {
+
+    name : "Player Three",
+    money : 10,
+    hand : []    
 }
 
 function buttonPressed() {
