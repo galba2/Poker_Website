@@ -47,6 +47,13 @@ const playerThree = {
     hand : []    
 }
 
+const seats = {
+
+    user : [ "User", 10, [102,103,104,105,106] ]
+}
+
+console.log(seats.user[2]);
+
 function buttonPressed() {
 
     //PLAYER ONE CARDFLICK
