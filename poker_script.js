@@ -28,6 +28,8 @@ const seats = {
 
 console.log(seats.user[2]);
 
+
+
 function buttonPressed() {
 
     //PLAYER ONE CARDFLICK
@@ -50,4 +52,10 @@ function buttonPressed() {
     document.getElementById("player-cards-three-third").style.animation = "cardFlickPlayerThreeThird .7s linear 0s normal both";
     document.getElementById("player-cards-three-fourth").style.animation = "cardFlickPlayerThreeFourth .7s ease-out 0s normal both";
     document.getElementById("player-cards-three-fifth").style.animation = "cardFlickPlayerThreeFifth .7s ease-out 0s normal both";
+}
+
+function deal(d){
+    for(let i = 0; i < d.length; i++){
+        
+    }
 }
