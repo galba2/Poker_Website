@@ -19,37 +19,11 @@ for(let i = 1; i < 5; i++){
 console.log(deck);
 
 //Create Seats
-const user = {
-
-    name : "User",
-    money : 10,
-    hand : []    
-}
-
-const playerOne = {
-
-    name : "Player One",
-    money : 10,
-    hand : []    
-}
-
-const playerTwo = {
-
-    name : "Player Two",
-    money : 10,
-    hand : []    
-}
-
-const playerThree = {
-
-    name : "Player Three",
-    money : 10,
-    hand : []    
-}
-
 const seats = {
-
-    user : [ "User", 10, [102,103,104,105,106] ]
+    user : [ "User", 10, [102,103,104,105,106] ],
+    playerOne : [ "Player One", 10, [102,103,104,105,106] ],
+    playerTwo : [ "Player Two", 10, [102,103,104,105,106] ],
+    playerThree : [ "Player Three", 10, [102,103,104,105,106] ]
 }
 
 console.log(seats.user[2]);
