@@ -20,15 +20,16 @@ console.log(deck);
 
 //Create Seats
 const seats = {
-    user : [ "User", 10, [102,103,104,105,106] ],
+    user : [ "User", 7, [102,103,104,105,106] ],
     playerOne : [ "Player One", 10, [102,103,104,105,106] ],
     playerTwo : [ "Player Two", 10, [102,103,104,105,106] ],
     playerThree : [ "Player Three", 10, [102,103,104,105,106] ]
 }
-
-console.log(seats.user[2]);
-
-
+console.log('Test 2');
+console.log(seats.user[2][0]);
+seats.user[2][0] = 407;
+console.log(seats.user[2][0]);
+console.log( Math.floor(Math.random() * deck.length) );
 
 function buttonPressed() {
 
@@ -55,7 +56,7 @@ function buttonPressed() {
 }
 
 function deal(d){
-    for(let i = 0; i < d.length; i++){
-        
+    for(let i = 0; i < 5 ; i++){//5 cards per hand
+        seats.user[2][i] = 3;
     }
 }
