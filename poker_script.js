@@ -30,6 +30,11 @@ console.log(seats.user[2][0]);
 seats.user[2][0] = 407;
 console.log(seats.user[2][0]);
 console.log( Math.floor(Math.random() * deck.length) );
+console.log(deck[0]);
+let spliced = deck.splice(0, 1);
+console.log( spliced );
+console.log(deck);
+
 
 function buttonPressed() {
 
@@ -57,6 +62,6 @@ function buttonPressed() {
 
 function deal(d){
     for(let i = 0; i < 5 ; i++){//5 cards per hand
-        seats.user[2][i] = 3;
+        seats.user[2][i] = seats.pop();
     }
 }
