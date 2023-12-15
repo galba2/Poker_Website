@@ -6,17 +6,19 @@ for(let i = 1; i < 5; i++){
 
     for(let j = 2; j < 15; j++){
 
-        deck.push( (i * 100) + j);//mutiplying by 100 so i can be the first in a 3 digit number
+        deck.push( (i * 100) + j);//mutiplying by 100 so 'i' can be the first in a 3 digit number
     }
 }
 
 //Deck Suit Key
-// 1 = diamonds
-// 2 = clubs
-// 3 = hearts
-// 4 = spades
+// 100 = diamonds
+// 200 = clubs
+// 300 = hearts
+// 400 = spades
 
+/*
 console.log(deck);
+*/
 
 //Create Seats
 const seats = {
@@ -25,6 +27,8 @@ const seats = {
     playerTwo : [ "Player Two", 10, [102,103,104,105,106] ],
     playerThree : [ "Player Three", 10, [102,103,104,105,106] ]
 }
+
+/*
 console.log('Test 2');
 console.log(seats.user[2][0]);
 seats.user[2][0] = 407;
@@ -34,7 +38,7 @@ console.log(deck[0]);
 let spliced = deck.splice(0, 1);
 console.log( spliced );
 console.log(deck);
-
+*/
 
 function buttonPressed() {
 
