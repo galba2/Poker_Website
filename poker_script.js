@@ -39,8 +39,19 @@ let spliced = deck.splice(0, 1);
 console.log( spliced );
 console.log(deck);
 */
+console.log( Math.floor(Math.random() * deck.length) );
+console.log(deck);
 
 function buttonPressed() {
+
+    deal(deck);
+    console.log(deck);
+    console.log("USER");
+    for(let i = 0; i < 5; i++){
+
+        console.log(seats.user[2][i]);
+    }
+    
 
     //PLAYER ONE CARDFLICK
     document.getElementById("player-cards-one-first").style.animation = "cardFlickPlayerOneFirst .7s linear 0s normal both";
@@ -66,6 +77,6 @@ function buttonPressed() {
 
 function deal(d){
     for(let i = 0; i < 5 ; i++){//5 cards per hand
-        seats.user[2][i] = seats.pop();
+        seats.user[2][i] = d.splice(  Math.floor(Math.random() * deck.length) , 1  );
     }
 }
